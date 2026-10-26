@@ -2,21 +2,21 @@
 // See index.d.ts for the full list of available options
 export default defineAppConfig({
     // Shows in the <title> tag before the name of the page
-    titlePrefix: "Example Store",
+    titlePrefix: "EconomySMP",
     // The name of your store
-    storeName: "Example Store",
+    storeName: "EconomySMP Store",
     // Require the user to login before they add items?
     auth: true,
     // Use external auth methods, e.g. CFX, Steam (Set to false for minecraft stores)
-    authExternal: true,
+    authExternal: false,
     // The unique ID of the store
     storeId: 45295,
     // A link to your main site (optional)
-    mainSiteUrl: "https://example.com",
+    mainSiteUrl: "https://practically-stove.tun.ply.gg",
     // A discord invite url (optional)
-    discordUrl: "https://discord.gg/example",
+    discordUrl: "",
     // A IP of your server which to display (optional)
-    serverIp: "play.example.com",
+    serverIp: "practically-stove.tun.ply.gg",
     // Reveal the sidebar when an item is added to the cart?
     showCartOnAdd: true,
     // Show confetti after checkout?
