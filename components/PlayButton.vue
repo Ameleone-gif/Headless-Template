@@ -9,7 +9,7 @@
             @click="copy(appConfig.serverIp)"
             v-bind="$attrs"
         >
-            {{ copied ? $t("buttons.copied") : $t("play") }}
+            {{ copied ? 'IP Copiato!' : appConfig.serverIp }}
         </Button>
     </UseClipboard>
 </template>
